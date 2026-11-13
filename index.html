@@ -8959,6 +8959,7 @@ function compassMode()
 	global_use_compass = true;
 	gdata.alpha_user_offset = 0;
 	gdata.alpha = gdata.compass_alpha;
+	document.getElementById("nocompass_button").style.display="none";
 	document.getElementById("compass_button").style.display="none";
 	document.getElementById("hand_button").style.display="inline";
 }
